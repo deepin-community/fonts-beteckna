@@ -1,15 +1,19 @@
-Source: template-repository
-Section: unknown
+Source: fonts-beteckna
+Section: fonts
 Priority: optional
-Maintainer: Tsic404 <liuheng@deepin.org>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.3
-Homepage: https://github.com/deepin-community/template-repository
-#Vcs-Browser: https://salsa.debian.org/debian/deepin-community-template-repository
-#Vcs-Git: https://salsa.debian.org/debian/deepin-community-template-repository.git
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Uploaders: Johan Mattsson <johan@beteckna.se>
+Build-Depends: debhelper-compat (= 13), birdfont
+Standards-Version: 4.5.1
+Homepage: https://github.com/jeffmcneill/beteckna
 
-Package: template-repository
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Package: fonts-beteckna
+Architecture: all
+Multi-Arch: foreign
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}
+Replaces: ttf-beteckna (<< 0.4-4)
+Breaks: ttf-beteckna (<< 0.4-4)
+Description: geometric Futura-like sans-serif TrueType font
+ This package provide a geometric sans-serif font, similar to the popular
+ Futura one.

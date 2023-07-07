@@ -1,0 +1,3 @@
+Beteckna.ttf usr/share/fonts/truetype/beteckna
+geometric-sans/*.ttf usr/share/fonts/truetype/beteckna
+debian/lintian/fonts-beteckna    usr/share/lintian/overrides

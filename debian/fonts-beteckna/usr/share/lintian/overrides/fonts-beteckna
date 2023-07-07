@@ -1,0 +1,5 @@
+fonts-beteckna: duplicate-font-file usr/share/fonts/truetype/beteckna/BetecknaLowerCase.ttf also in ttf-beteckna
+fonts-beteckna: duplicate-font-file usr/share/fonts/truetype/beteckna/BetecknaLowerCaseBold.ttf also in ttf-beteckna
+fonts-beteckna: duplicate-font-file usr/share/fonts/truetype/beteckna/BetecknaLowerCaseBoldCondensed.ttf also in ttf-beteckna
+fonts-beteckna: duplicate-font-file usr/share/fonts/truetype/beteckna/BetecknaLowerCaseItalic.ttf also in ttf-beteckna
+fonts-beteckna: duplicate-font-file usr/share/fonts/truetype/beteckna/BetecknaLowerCaseItalicCondensed.ttf also in ttf-beteckna

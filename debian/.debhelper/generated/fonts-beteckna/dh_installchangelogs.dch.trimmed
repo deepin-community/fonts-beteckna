@@ -1,0 +1,42 @@
+fonts-beteckna (0.5-3) unstable; urgency=medium
+
+  * Team upload.
+  * Rebuild package. The package no longer FTBFS. (Closes: #944505)
+  * debian/control: Remove Christian Perrier from package uploaders
+    list. (Closes: #927556)
+  * debian/control: Bump to debhelper compat v13.
+  * debian/control: Bump Standards-Version to 4.5.1.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 20 Jan 2021 10:27:39 -0500
+
+fonts-beteckna (0.5-2) unstable; urgency=medium
+
+  * Team upload, drop myself from Uploaders.
+  * debian/README.Debian: added.
+  * Bump debhelper version to 11.
+  * Bump standards version to 4.2.1.
+  * debian/control: drop Vcs fields.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Fri, 16 Nov 2018 09:55:51 +0100
+
+fonts-beteckna (0.5-1) unstable; urgency=medium
+
+  * New upstream version.
+  * Bump standards version to 4.1.0.
+  * Bump debhelper version to 10.
+  * Update homepage.
+  * Update my name.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Thu, 28 Sep 2017 20:23:51 +0200
+
+fonts-beteckna (0.4-8) unstable; urgency=low
+
+  * Upload to unstable
+  * No longer use xz extreme compression
+  * Update Standards to 3.9.6 (checked)
+  * Use dep-5 copyright file
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 05 Oct 2014 19:12:17 +0200
+
+# Older entries have been removed from this changelog.
+# To read the complete changelog use `apt changelog fonts-beteckna`.
