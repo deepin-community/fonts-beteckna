@@ -1,5 +1,154 @@
-template-repository (1.0-1) unstable; urgency=medium
+fonts-beteckna (0.5-3) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * Rebuild package. The package no longer FTBFS. (Closes: #944505)
+  * debian/control: Remove Christian Perrier from package uploaders
+    list. (Closes: #927556)
+  * debian/control: Bump to debhelper compat v13.
+  * debian/control: Bump Standards-Version to 4.5.1.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Boyuan Yang <byang@debian.org>  Wed, 20 Jan 2021 10:27:39 -0500
+
+fonts-beteckna (0.5-2) unstable; urgency=medium
+
+  * Team upload, drop myself from Uploaders.
+  * debian/README.Debian: added.
+  * Bump debhelper version to 11.
+  * Bump standards version to 4.2.1.
+  * debian/control: drop Vcs fields.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Fri, 16 Nov 2018 09:55:51 +0100
+
+fonts-beteckna (0.5-1) unstable; urgency=medium
+
+  * New upstream version.
+  * Bump standards version to 4.1.0.
+  * Bump debhelper version to 10.
+  * Update homepage.
+  * Update my name.
+
+ -- Gürkan Myczko <gurkan@phys.ethz.ch>  Thu, 28 Sep 2017 20:23:51 +0200
+
+fonts-beteckna (0.4-8) unstable; urgency=low
+
+  * Upload to unstable
+  * No longer use xz extreme compression
+  * Update Standards to 3.9.6 (checked)
+  * Use dep-5 copyright file
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 05 Oct 2014 19:12:17 +0200
+
+fonts-beteckna (0.4-7) experimental; urgency=medium
+
+  * Team upload.
+  * debian/maintscript
+    - switch from {pre,post}{inst,rm} scripts. (Closes: #659550)
+      Thanks to Colin Watson <cjwatson@ubuntu.com>
+  * debian/{pre,post}{inst,rm}
+    - remove unnecessary those scripts
+  * debian/control
+    - Pre-Depedns: s/dpkg (>=1.15.7.2~)/${misc:Pre-Depends}/
+    - set Standards-Version: 3.9.5
+
+ -- Hideki Yamane <henrich@debian.org>  Thu, 30 Jan 2014 06:50:44 +0900
+
+fonts-beteckna (0.4-6) experimental; urgency=low
+
+  * Update Standards to 3.9.4 (checked)
+  * Bump debhelper compatibility to 9
+  * Drop ttf-beteckna transitional package
+  * Add "Multi-Arch: foreign" field
+  * Use "Breaks" instead of "Conflicts". Drop "Provides" as it is no
+    longer needed (installations should have transitioned since wheezy
+    and the package has anyway no reverse dependency.
+  * Use xz extreme compression for deb packages
+  * Use git for packaging: adapt Vcs-* fields
+  * Add Pre-depends on dpkg (>= 1.15.7.2~) as we use
+    dpkg-maintscript-helper in preinst.
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 14 Apr 2013 14:59:30 +0200
+
+fonts-beteckna (0.4-5) unstable; urgency=low
+
+  * Ooops, add Replaces, Conflicts, Provides...
+  * Don't remove Condensed SFD files in the clean target
+  * Don't save SFD files (and thus change their timestamp) after
+    building the TTF files
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 29 Jul 2011 16:11:28 +0200
+
+fonts-beteckna (0.4-4) unstable; urgency=low
+
+  * Rename source package to "fonts-arabeyes" to fit the Font
+    Packages Naming Policy.
+  * Add Vcs-Svn and Vcs-Browser to source package fields
+  * Bump Standards to 3.9.2 (checked)
+  * Bump debhelper compatibility level to 8
+  * Change section for "fonts"
+  * Drop useless ${shlib:Depends} dependency for an arch:all package
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 28 Jul 2011 18:31:14 +0200
+
+ttf-beteckna (0.4-3) unstable; urgency=low
+
+  * Team upload
+  * Move this package under pkg-fonts team maintenance
+  * Use "fontforge-nox | fontforge" in Build-Depends
+  * Drop defoma use
+  * Move to dh7-style rules file
+  * Move to 3.0 (quilt) source format
+  * Update Standards to 3.9.1 (checked)
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 12 Feb 2011 22:19:46 +0100
+
+ttf-beteckna (0.4-2.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Rebuild against fixed defoma (for dh_installdefoma) and bump
+    build-deps accordingly. (Closes: #561466)
+
+ -- Stefano Zacchiroli <zack@debian.org>  Sat, 02 Jan 2010 11:22:10 +0100
+
+ttf-beteckna (0.4-2) unstable; urgency=low
+
+  * Apply patches of Gregor Herrmann, thanks. (Closes: #551506)
+  * Bump standards version.
+
+  [ Gregor Herrmann ]
+  * Fix "Hints do not match the installed files" by applying patch by Jakob
+    Bohm, adjusted for the 0.4 release.
+  * Install hints file by calling dh_installdefoma in debian/rules.
+  * debian/rules: clean up targets and dependencies, running the build once is
+    enough.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Thu, 03 Dec 2009 09:17:20 +0100
+
+ttf-beteckna (0.4-1) unstable; urgency=low
+
+  * New upstream version. (Closes: #520503, #520497)
+  * Bump debhelper version.
+  * Bump standards version.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Wed, 08 Apr 2009 17:51:07 +0200
+
+ttf-beteckna (0.3-1) unstable; urgency=low
+
+  * New upstream version.
+  * Updated homepage.
+  * Updated my email address.
+  * Bump standards version.
+
+ -- Gürkan Sengün <gurkan@phys.ethz.ch>  Fri, 03 Oct 2008 16:37:43 +0200
+
+ttf-beteckna (0.2-2) unstable; urgency=low
+
+  * Generate more typefaces.
+  * Fix font name. (Closes: #451739)
+
+ -- Gürkan Sengün <gurkan@linuks.mine.nu>  Tue, 27 Nov 2007 13:44:15 +0100
+
+ttf-beteckna (0.2-1) unstable; urgency=low
+
+  * Initial release. (Closes: #424702)
+
+ -- Gürkan Sengün <gurkan@linuks.mine.nu>  Tue, 06 Nov 2007 00:25:56 +0100

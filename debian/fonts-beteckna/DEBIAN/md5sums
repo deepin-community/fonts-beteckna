@@ -1,0 +1,13 @@
+5983ccd3f6df05145079b79edf43ec3f  usr/share/doc/fonts-beteckna/README.Debian
+8430cf95550540784a777369923c5cc6  usr/share/doc/fonts-beteckna/README.md
+a75fa008d40e1aae17e9bc4d8a6d6d41  usr/share/doc/fonts-beteckna/changelog.Debian.gz
+fb245ee1643647fc196834653041a13c  usr/share/doc/fonts-beteckna/changelog.gz
+3da7c000df9bdfa47008de140eddf04e  usr/share/doc/fonts-beteckna/copyright
+c6373137cf3a06f5c33a29a2280dee6b  usr/share/fonts/truetype/beteckna/Beteckna.ttf
+bb6c985927ed2c552fd1aef63721a856  usr/share/fonts/truetype/beteckna/BetecknaGS Mac.ttf
+73f3d9bd0a3662705a952ed94682996e  usr/share/fonts/truetype/beteckna/BetecknaGS-Bold.ttf
+1311a7111c0bb056cc98b08fa1d5250b  usr/share/fonts/truetype/beteckna/BetecknaGS-Italic.ttf
+fccc2b58466a241f3bc5e2b7e0f94d7f  usr/share/fonts/truetype/beteckna/BetecknaGS.ttf
+7fd36e9ada043401945c3a5792a10fd1  usr/share/fonts/truetype/beteckna/BetecknaGSCondensed-Bold.ttf
+3c663146cc724881840fa8921f08e606  usr/share/fonts/truetype/beteckna/BetecknaGSCondensed-Italic.ttf
+2ecf635023254cf1513323b1cdbaca36  usr/share/lintian/overrides/fonts-beteckna
